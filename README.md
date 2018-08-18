@@ -12,7 +12,7 @@ npm install
 ### simple
 ```
 cd simple
-node index.ts
+node index.js
 ```
 
 ### book-parser
@@ -20,9 +20,9 @@ node index.ts
 cd book-parser
 
 # run single process
-node single.ts
+node single.js
 
 # run multi process
-node multi.ts
+node multi.js
 
 ```
