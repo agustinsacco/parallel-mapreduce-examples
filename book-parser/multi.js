@@ -6,7 +6,7 @@ let { parseBook, getOccurences, reduceOccurences } = require('./helper.js');
 const words = parseBook('./Brain Theory and Neural Networks.txt');
 
 console.time('Parallel Process Time');
-mapReduce(words, getOccurences, reduceOccurences, { workers: 4 })
+mapReduce(words, getOccurences, reduceOccurences, { workers: 8 })
     .then(result => {
         console.log('------ Multi Process Results -------');
         console.log('"computers" count: ' + result.computers);
