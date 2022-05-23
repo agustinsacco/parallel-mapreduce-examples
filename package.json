@@ -1,0 +1,23 @@
+{
+  "name": "parallel-mapreduce-examples",
+  "version": "1.0.0",
+  "description": "Parallel mapreduce package examples",
+  "main": "index.js",
+  "dependencies": {
+    "parallel-mapreduce": "^1.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agustinsacco/parallel-mapreduce-examples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agustinsacco/parallel-mapreduce-examples/issues"
+  },
+  "homepage": "https://github.com/agustinsacco/parallel-mapreduce-examples#readme"
+}
